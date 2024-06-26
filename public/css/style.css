@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 1vw;
+}
+
+.options a {
+  text-decoration: none !important;
+  font-size: 1vw;
+  color: black;
+  font-style: bold;
+}
